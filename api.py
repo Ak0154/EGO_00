@@ -6,7 +6,7 @@ import torch
 app = FastAPI()
 
 # Hugging Face model repo URL (replace with your model URL)
-model_repo = "https://huggingface.co/dreameater28/00_EGO_00"
+model_repo = "dreameater28/00_EGO_00"
 
 # Load model & tokenizer from Hugging Face Hub
 tokenizer = AutoTokenizer.from_pretrained(model_repo)
